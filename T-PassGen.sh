@@ -119,4 +119,3 @@ banner
 exit
 fi
 }
-banner
