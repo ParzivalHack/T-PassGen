@@ -1,5 +1,6 @@
 blue="\e[34m"
 cyan="\e[36m"
+echo -e "$blue"
 toilet T-PassGen
 echo -e "$blue                        ➡$cyan [\e[36m1\e[36m] Generate password with md5sum (32)"
 echo -e "$blue                        ➡$cyan [\e[36m2\e[36m] Generate alphanumeric password (16)"
