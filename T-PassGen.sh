@@ -53,7 +53,7 @@ else
 echo "wrong"
 exit
 fi
-upd(){
+upd() {
 if [ -d "$HOME/T-PassGen" ];
 then
 cd $HOME
