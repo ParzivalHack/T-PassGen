@@ -25,7 +25,7 @@ choose() { echo ${1:RANDOM%${#1}:1}; }
     choose '0123456789'
     choose 'abcdefghijklmnopqrstuvwxyz'
     choose 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-    for i in $( seq 1 $(( 4 + RANDOM % 8 )) )
+    for i in $( seq 1 $(( 4 + RANDOM % 16 )) )
     do
         choose '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     done
